@@ -1,0 +1,450 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.audi1 {
+    position: relative;
+    background: url("audiblack.jpg") no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    padding: 250px;
+
+}
+.audi11{
+    position: absolute;
+    color:white;
+    left: 50px;
+    top: 10px;
+    font: inherit;
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    }
+.audi11 h1, .audi11 span, .audi11 strong {
+    position: relative; 
+    left: 0;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;   
+    padding: 10px;
+    position: absolute;    
+    top: 4300px;
+    
+}
+footer p{
+   text-align: center;
+}
+.a a:hover{
+background-color: white;
+color: red;
+border: 2px solid red;
+border-radius: 50px;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top:160px;
+    border:  2px solid white;
+             
+}
+.b1{
+    color: white;
+    background-color: transparent;
+    position:absolute;
+    left:310px;
+    border:  2px solid white;
+    width: 250px;
+    }
+
+section ul {
+    list-style-type: none;
+    display: flex;
+    overflow: auto;
+
+    
+}
+section ul .q8{
+    display: block;
+    text-align: center;
+}
+.models a{
+    font-size: larger;
+    text-decoration-line: underline;
+
+}
+.audi2 {
+    position: relative;
+    background: url("E-tronHub.jpg") no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    padding: 300px;
+    height: 800px;
+
+}
+.audi22{
+    position: absolute;
+    background-color:white;
+    width: 600px;
+    height: 300px;
+    left: 20px;
+    top: 50px;
+   
+}
+
+.audi22 h1 {
+    position: relative; 
+    left: -180px;            
+    }
+.audi22 span{
+    position: absolute;
+    left: 5px;
+    text-align: left;
+}
+
+ .c2{
+    background-color:black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top:200px;
+    color: white;
+ }
+.c1{
+    
+    position:absolute;
+    top: 200px;
+    left:200px;
+    border:  2px solid black;
+    width: 250px;
+    }
+.dealer{
+    border: 2px solid rgb(0, 0, 0);
+    width: 360px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.dealer img {
+    position: absolute;
+    left: 355px;
+    height: 500px;
+    top: 2199px;
+    width: 1111px
+
+}
+.dealerbut{
+    background-color:transparent;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top:2600px;
+    border:  2px solid white;
+}
+.audiconnect{
+    border: 2px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:2800px;
+    
+}
+.connect img {
+    position: absolute;
+    left: 800px;
+    height: 500px;
+    top: 0px;
+    width: 665px;
+    bottom: 0;
+
+}
+.connectbut{
+    background-color:transparent;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    border:  2px solid white;
+}
+.connectbut1{
+    background-color:transparent;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 310px;
+    top: 400px;
+    border:  2px solid white;
+}
+
+
+.wait1 {
+    list-style-type: none;
+    display: flex;
+    position:absolute;
+    top: 3450px;
+
+    
+}
+.wait{
+    display: block;
+    text-align: center;
+}
+.waiting a{
+    position: absolute;
+    font-size: xx-large;
+    top: 3400px;
+    left: 35px;
+    
+}
+.wait img{
+    width: 450px;
+    height: 300px;
+}
+
+
+.press1 {
+    list-style-type: none;
+    display: flex;
+    position:absolute;
+    top: 3900px;
+
+    
+}
+.press{
+    display: block;
+    text-align: center;
+    
+}
+.press a{
+    position: absolute;
+    font-size: xx-large;
+    top: 3850px;
+    left: 35px;
+    
+}
+.press img{
+    display: block;
+    width: 450px;
+    height: 300px;
+    padding: 12px;
+}
+
+
+@media (max-width: 600px) {
+    .audi1 {
+        padding: 150px 20px;
+        background-size: cover;
+    }
+    strong{
+        width: 340px;
+    }
+
+    .audi11 {
+        left: 20px;
+        top: 5px;
+        font-size: 110%;
+    }
+}
+@media (max-width: 600px) {
+    button {
+        width: 160px;
+        left: 8px;
+        top: 170px;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .b1 {
+        width: 180px;
+        left: 180px;
+        height: 45px;
+        padding: 8px;
+    }
+}
+@media (max-width: 600px) {
+    .audi2 {
+        padding: 150px 20px;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .audi22 {
+        width: 360px;
+        height: 200px;
+        left: 5px;
+        top: 30px;
+    }
+
+    .audi22 h1 {
+        left: 0;
+    }
+
+    .audi22 span {
+        font-size: 80%;
+    }
+
+    .c2 {
+        width: 100px;
+        height: 30px;
+        left: 20px;
+        top: 170px;
+        padding: 6px;
+    }
+
+    .c1 {
+        width: 150px;
+        left: 130px;
+        top: 170px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .dealer {
+        width: fit-content;
+        padding: 15px;
+    }
+
+    .dealer img {
+        left: 0;
+        width: 100%;
+        height: auto;
+        top: auto;
+        position: relative;
+    }
+
+    .dealerbut {
+        width: 100%;
+        height: 40px;
+        left: 0;
+        top: 340px;
+        position: relative;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .audiconnect {
+        width: fit-content;
+        height: 750px;
+        position: relative;
+        top: auto;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .connect img {
+        left: 0;
+        top: auto;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .connectbut {
+        width: 150px;
+        height: 45px;
+        left: -20px;
+        top: 500px;
+        position: relative;
+        
+    }
+
+    .connectbut1 {
+        width: 150px;
+        height: 45px;
+        left: 10px;
+        top: 500px;
+        position: relative;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 600px) {
+    .wait1 {
+        top: 2930px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .waiting a {
+        top: 2900px;
+        left: 5px;
+        font-size: xx-large;
+    }
+    .wait img {
+        width: 300px;
+        height: 200px;
+        display: block;
+            
+    }
+}
+@media (max-width: 600px) {
+.press1 {
+    flex-direction: column;
+    top: 3720px;
+    align-items: center;
+
+    
+}
+.press{
+    display: block;
+    text-align: center;
+    
+}
+.press a{
+    position: absolute;
+    font-size: xx-large;
+    top: 3700px;
+    left: 35px;
+    
+}
+.press img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding: 12px;
+}
+}
+@media (max-width: 600px) {
+    footer {
+        background-color: #000;
+        color: #fff;   
+        padding: 10px;
+        position: absolute;    
+        top: 4800px;
+        font-size: xx-small;
+        
+    }
+    footer p{
+       text-align: center;
+       font-size: smaller;
+       
+    }
+
+}
